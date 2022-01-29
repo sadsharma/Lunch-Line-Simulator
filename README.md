@@ -1,7 +1,14 @@
-# Lunar-System 
-  - Creates a system that will identify the students by a unique identifier called the webid (which will consist of the first letter and the last name of the        
-    student).
-  - Registrar needs to log in first and enroll students into the system then the students will be able to log in.
-  - When students log in to the Lunar System, they will be able to view their classes, add a class, drop a class, and sort their classes by courseId or semester.
-  - The registrar must be able to see all the students that took a given course in a given semester, register, and deregister students
-  - Save the state of the lunar system so you can exit the system and reload what's already been done.
+# Lunch Line Simulator
+Objective: 
+  - Functions as a real school lunchline
+Constraints: 
+  - 20 people can be on line at a time
+  - If more than 20 then people then they will be out in the hallway which means automatic detention for the student by    
+    dean mean (handled with dean mean exception)
+ How it works:
+  - There is a menu that allows you to do what you like such as:
+      -serving a student
+      -letting a student cut in line infront of a friend
+      -bully a student out of their money which will make them leave the line
+      -you can also switch between realities incase you don't like how you have changed the line so far
+      -you can copy one reality into the other
